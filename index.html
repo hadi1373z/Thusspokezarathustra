@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thus Spoke Zarathustra</title>
+  <meta name="description" content="Thus Spoke Zarathustra — a quiet place for the words of Friedrich Nietzsche." />
+  <style>
+    :root {
+      --bg: #0e0c0a;
+      --bg-2: #15110d;
+      --gold: #c9a24b;
+      --text: #e8e2d6;
+      --muted: #9a9183;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: radial-gradient(circle at 50% 0%, var(--bg-2), var(--bg) 70%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem 1.5rem;
+      line-height: 1.7;
+    }
+    .mark {
+      font-size: 2.2rem;
+      color: var(--gold);
+      letter-spacing: 0.5rem;
+      margin-bottom: 1.5rem;
+      opacity: 0.9;
+    }
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.6rem);
+      font-weight: normal;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.4rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-style: italic;
+      font-size: 1.05rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 3rem;
+    }
+    .rule {
+      width: 60px;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.6;
+      margin: 0 auto 3rem;
+    }
+    blockquote {
+      max-width: 680px;
+      font-size: clamp(1.25rem, 3vw, 1.7rem);
+      font-style: italic;
+      color: var(--text);
+      margin: 0 auto 1.2rem;
+    }
+    blockquote::before { content: "\201C"; color: var(--gold); }
+    blockquote::after  { content: "\201D"; color: var(--gold); }
+    cite {
+      display: block;
+      color: var(--muted);
+      font-style: normal;
+      font-size: 0.95rem;
+      letter-spacing: 0.1em;
+      margin-bottom: 4rem;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      opacity: 0.7;
+    }
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="mark">&#9737;</div>
+  <h1>Thus Spoke Zarathustra</h1>
+  <p class="subtitle">Friedrich Nietzsche</p>
+  <div class="rule"></div>
+
+  <blockquote>You must have chaos within you to give birth to a dancing star.</blockquote>
+  <cite>— Zarathustra's Prologue</cite>
+
+  <footer>thusspokezarathustra.org</footer>
+</body>
+</html>
