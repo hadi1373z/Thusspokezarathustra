@@ -1,97 +1,291 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thus Spoke Zarathustra</title>
-  <meta name="description" content="Thus Spoke Zarathustra — a quiet place for the words of Friedrich Nietzsche." />
-  <style>
-    :root {
-      --bg: #0e0c0a;
-      --bg-2: #15110d;
-      --gold: #c9a24b;
-      --text: #e8e2d6;
-      --muted: #9a9183;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: Georgia, 'Times New Roman', serif;
-      background: radial-gradient(circle at 50% 0%, var(--bg-2), var(--bg) 70%);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 2rem 1.5rem;
-      line-height: 1.7;
-    }
-    .mark {
-      font-size: 2.2rem;
-      color: var(--gold);
-      letter-spacing: 0.5rem;
-      margin-bottom: 1.5rem;
-      opacity: 0.9;
-    }
-    h1 {
-      font-size: clamp(2rem, 6vw, 3.6rem);
-      font-weight: normal;
-      letter-spacing: 0.08em;
-      margin-bottom: 0.4rem;
-    }
-    .subtitle {
-      color: var(--muted);
-      font-style: italic;
-      font-size: 1.05rem;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      margin-bottom: 3rem;
-    }
-    .rule {
-      width: 60px;
-      height: 1px;
-      background: var(--gold);
-      opacity: 0.6;
-      margin: 0 auto 3rem;
-    }
-    blockquote {
-      max-width: 680px;
-      font-size: clamp(1.25rem, 3vw, 1.7rem);
-      font-style: italic;
-      color: var(--text);
-      margin: 0 auto 1.2rem;
-    }
-    blockquote::before { content: "\201C"; color: var(--gold); }
-    blockquote::after  { content: "\201D"; color: var(--gold); }
-    cite {
-      display: block;
-      color: var(--muted);
-      font-style: normal;
-      font-size: 0.95rem;
-      letter-spacing: 0.1em;
-      margin-bottom: 4rem;
-    }
-    footer {
-      color: var(--muted);
-      font-size: 0.8rem;
-      letter-spacing: 0.1em;
-      opacity: 0.7;
-    }
-    footer a { color: var(--gold); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-  </style>
-</head>
-<body>
-  <div class="mark">&#9737;</div>
-  <h1>Thus Spoke Zarathustra</h1>
-  <p class="subtitle">Friedrich Nietzsche</p>
-  <div class="rule"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#171711" />
+    <title>Thus Spoke Zarathustra</title>
+    <meta
+      name="description"
+      content="An atmospheric reading companion to Friedrich Nietzsche's Thus Spoke Zarathustra."
+    />
+    <meta property="og:title" content="Thus Spoke Zarathustra" />
+    <meta
+      property="og:description"
+      content="Descend, unlearn, overcome—and affirm the life that is yours."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://thusspokezarathustra.org/" />
+    <link rel="canonical" href="https://thusspokezarathustra.org/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <blockquote>You must have chaos within you to give birth to a dancing star.</blockquote>
-  <cite>— Zarathustra's Prologue</cite>
+    <header class="site-nav" aria-label="Primary navigation">
+      <a class="wordmark" href="#top" aria-label="Thus Spoke Zarathustra home">
+        <span class="sun-mark" aria-hidden="true"></span>
+        <span>Zarathustra</span>
+      </a>
+      <nav aria-label="Page sections">
+        <a href="#journey">The journey</a>
+        <a href="#ideas">The ideas</a>
+        <a class="nav-cta" href="#begin">Begin reading</a>
+      </nav>
+    </header>
 
-  <footer>thusspokezarathustra.org</footer>
-</body>
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-aura" aria-hidden="true"></div>
+        <div class="mountain mountain-back" aria-hidden="true"></div>
+        <div class="mountain mountain-front" aria-hidden="true"></div>
+
+        <div class="hero-copy">
+          <p class="kicker">Friedrich Nietzsche · 1883–1885</p>
+          <h1 id="hero-title">Thus Spoke <em>Zarathustra</em></h1>
+          <p class="hero-intro">
+            A book for all and none. An invitation to descend, unlearn,
+            overcome—and affirm the life that is yours.
+          </p>
+          <a class="primary-button" href="#journey">
+            Enter the mountain
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <p class="vertical-note" aria-hidden="true">
+          A philosophical reading experience
+        </p>
+        <div class="edition-note" aria-hidden="true">
+          <span>01</span>
+          <p>Read slowly.<br />Return often.</p>
+        </div>
+      </section>
+
+      <section class="manifesto" aria-labelledby="opening-quote">
+        <p class="section-tag">The first step</p>
+        <blockquote id="opening-quote">
+          “One must still have chaos in oneself to give birth to a dancing
+          star.”
+        </blockquote>
+        <p class="manifesto-copy">
+          This is not a system to memorize. It is a dramatic experiment: a
+          prophet who doubts his own prophecies, a teacher who asks to be
+          abandoned, and a reader who must decide what deserves to be created.
+        </p>
+      </section>
+
+      <section class="journey" id="journey" aria-labelledby="journey-title">
+        <div class="section-heading">
+          <p class="section-tag">The four movements</p>
+          <h2 id="journey-title">A path of<br />transformation</h2>
+          <p>Follow the book as a journey, not a sequence of arguments.</p>
+        </div>
+
+        <div class="movement-list">
+          <article class="movement">
+            <span class="movement-number">I</span>
+            <div>
+              <p>Leave the mountain</p>
+              <h3>The Descent</h3>
+            </div>
+            <p class="movement-text">
+              After ten years of solitude, Zarathustra descends to offer
+              humanity a new way of valuing life.
+            </p>
+            <span class="movement-arrow" aria-hidden="true">↗</span>
+          </article>
+
+          <article class="movement">
+            <span class="movement-number">II</span>
+            <div>
+              <p>Break the old tables</p>
+              <h3>The Teaching</h3>
+            </div>
+            <p class="movement-text">
+              In parables and provocations, he confronts inherited morality,
+              comfort, and the fear of becoming.
+            </p>
+            <span class="movement-arrow" aria-hidden="true">↗</span>
+          </article>
+
+          <article class="movement">
+            <span class="movement-number">III</span>
+            <div>
+              <p>Carry the heaviest thought</p>
+              <h3>The Return</h3>
+            </div>
+            <p class="movement-text">
+              The eternal return asks whether you could affirm this life—not
+              once, but endlessly and without revision.
+            </p>
+            <span class="movement-arrow" aria-hidden="true">↗</span>
+          </article>
+
+          <article class="movement">
+            <span class="movement-number">IV</span>
+            <div>
+              <p>Become who you are</p>
+              <h3>The Sign</h3>
+            </div>
+            <p class="movement-text">
+              Zarathustra outgrows his disciples and waits for people capable
+              of creating values of their own.
+            </p>
+            <span class="movement-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="ideas" id="ideas" aria-labelledby="ideas-title">
+        <div class="ideas-title">
+          <p class="section-tag">Three constellations</p>
+          <h2 id="ideas-title">Ideas to live<br />through—not agree with.</h2>
+        </div>
+
+        <div class="concept-grid">
+          <article class="concept">
+            <span class="concept-index">01</span>
+            <p class="concept-eyebrow">Übermensch</p>
+            <h3>Self-overcoming</h3>
+            <p>
+              Not a superior biological type, but an image of the person who
+              continually surpasses inherited limits and authors new values.
+            </p>
+          </article>
+
+          <article class="concept">
+            <span class="concept-index">02</span>
+            <p class="concept-eyebrow">Eternal return</p>
+            <h3>Radical affirmation</h3>
+            <p>
+              A test: if every joy, mistake, and ordinary afternoon returned
+              forever, could you still say yes to your life as a whole?
+            </p>
+          </article>
+
+          <article class="concept">
+            <span class="concept-index">03</span>
+            <p class="concept-eyebrow">Will to power</p>
+            <h3>Creative force</h3>
+            <p>
+              Life does not merely preserve itself. It interprets, shapes,
+              risks, transforms, and reaches beyond what it already is.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="begin" id="begin" aria-labelledby="begin-title">
+        <div class="begin-heading">
+          <p class="section-tag">Begin where you are</p>
+          <h2 id="begin-title">What follows<br />you up the mountain?</h2>
+          <p>
+            Choose the question closest to you. Take the response as a prompt,
+            not an answer.
+          </p>
+        </div>
+
+        <div class="reflection-shell">
+          <div class="reflection-tabs" role="tablist" aria-label="Choose your present question">
+            <button
+              class="active"
+              id="tab-stuck"
+              role="tab"
+              aria-selected="true"
+              aria-controls="reflection-panel"
+              data-reflection="stuck"
+              type="button"
+            >
+              <span>01</span>I feel stuck
+            </button>
+            <button
+              id="tab-failure"
+              role="tab"
+              aria-selected="false"
+              aria-controls="reflection-panel"
+              data-reflection="failure"
+              type="button"
+            >
+              <span>02</span>I fear failure
+            </button>
+            <button
+              id="tab-direction"
+              role="tab"
+              aria-selected="false"
+              aria-controls="reflection-panel"
+              data-reflection="direction"
+              type="button"
+            >
+              <span>03</span>I need direction
+            </button>
+          </div>
+
+          <div
+            class="reflection-panel"
+            id="reflection-panel"
+            role="tabpanel"
+            aria-live="polite"
+            aria-labelledby="tab-stuck"
+          >
+            <p class="passage-label">A passage for this moment</p>
+            <blockquote data-passage>
+              “The snake which cannot cast its skin has to die.”
+            </blockquote>
+            <div class="reflection-question">
+              <span aria-hidden="true">✦</span>
+              <p data-thought>
+                Name one identity you keep defending even though it no longer
+                helps you grow. What small act would loosen it today?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ritual" aria-labelledby="ritual-title">
+        <p class="section-tag" id="ritual-title">A simple reading ritual</p>
+        <div class="ritual-grid">
+          <article>
+            <span>01</span>
+            <h3>Read</h3>
+            <p>
+              One discourse only. Resist the urge to turn poetry into a
+              checklist.
+            </p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Pause</h3>
+            <p>
+              Underline the sentence that provokes resistance, not the one
+              that flatters you.
+            </p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Write</h3>
+            <p>
+              Ask: if this were a challenge addressed to me, what would it
+              demand today?
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-sun" aria-hidden="true"></div>
+      <p>“Now I bid you lose me and find yourselves.”</p>
+      <a href="#top">
+        Return to the summit <span aria-hidden="true">↑</span>
+      </a>
+      <div class="footer-meta">
+        <span>Thus Spoke Zarathustra</span>
+        <span>An independent reading companion</span>
+      </div>
+    </footer>
+  </body>
 </html>
