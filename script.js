@@ -2,17 +2,17 @@ const reflections = {
   stuck: {
     passage: "The snake which cannot cast its skin has to die.",
     thought:
-      "Name one identity you keep defending even though it no longer helps you grow. What small act would loosen it today?",
+      "What idea of yourself do you keep defending, even though it no longer helps you grow? What small act might loosen its hold today?",
   },
   failure: {
     passage: "You must be ready to burn yourself in your own flame.",
     thought:
-      "Failure is not always a verdict; sometimes it is the cost of becoming precise. What attempt would still matter even if nobody applauded?",
+      "Failure can help you see more clearly what you are trying to do. What would still be worth attempting, even if nobody applauded?",
   },
   direction: {
     passage: "Become who you are.",
     thought:
-      "Do not begin with a final destination. Notice where your attention becomes most alive, then give that place one uninterrupted hour.",
+      "You do not need a final destination to begin. Notice what holds your attention, then give it one uninterrupted hour.",
   },
 };
 
