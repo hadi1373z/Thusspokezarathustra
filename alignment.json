@@ -115,6 +115,42 @@
           "label": "Čeština",
           "href": "languages.html#cs",
           "status": "short_introduction_available"
+        },
+        {
+          "lang": "ar",
+          "label": "العربية",
+          "href": "languages.html#ar",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "tr",
+          "label": "Türkçe",
+          "href": "languages.html#tr",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "pt",
+          "label": "Português",
+          "href": "languages.html#pt",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "ru",
+          "label": "Русский",
+          "href": "languages.html#ru",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "zh",
+          "label": "中文",
+          "href": "languages.html#zh",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "ja",
+          "label": "日本語",
+          "href": "languages.html#ja",
+          "status": "short_introduction_available"
         }
       ]
     }
