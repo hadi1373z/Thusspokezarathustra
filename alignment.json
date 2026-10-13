@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "scope": "Chapter correspondence only; not paragraph equivalence or a translation genealogy",
+  "updated": "2026-10-14",
+  "sections": [
+    {
+      "id": "za.part1.three-metamorphoses",
+      "part": 1,
+      "canonical_title": "Von den drei Verwandlungen",
+      "editions": [
+        {
+          "id": "de",
+          "title": "Von den drei Verwandlungen",
+          "edition": "German original · Gutenberg 7205",
+          "href": "https://www.gutenberg.org/cache/epub/7205/pg7205-images.html",
+          "location": "Search the table of contents for the displayed heading",
+          "status": "chapter_checked"
+        },
+        {
+          "id": "en",
+          "title": "The Three Metamorphoses",
+          "edition": "Thomas Common · existing reader",
+          "href": "part-1.html#i-the-three-metamorphoses",
+          "location": "Direct chapter anchor",
+          "status": "chapter_checked"
+        },
+        {
+          "id": "fr",
+          "title": "Les trois métamorphoses",
+          "edition": "French · Gutenberg 5258",
+          "href": "https://dev.gutenberg.org/cache/epub/5258/pg5258-images.html",
+          "location": "Find the displayed heading in the source",
+          "status": "chapter_checked"
+        },
+        {
+          "id": "it",
+          "title": "Delle tre metamorfosi",
+          "edition": "Renato Giani · 1915",
+          "href": "https://it.wikisource.org/wiki/Cos%C3%AC_parl%C3%B2_Zarathustra/Parte_prima/Delle_tre_metamorfosi",
+          "location": "Direct chapter page",
+          "status": "chapter_checked"
+        },
+        {
+          "id": "es",
+          "title": "De las tres transformaciones",
+          "edition": "Spanish · Wikisource, attribution pending",
+          "href": "https://es.wikisource.org/wiki/Zaratustra_2:De_las_tres_transformaciones",
+          "location": "Direct chapter page",
+          "status": "chapter_checked_attribution_pending"
+        }
+      ],
+      "alignment_level": "chapter",
+      "paragraph_alignment": [],
+      "missing_languages": [
+        "fa",
+        "cs"
+      ]
+    }
+  ],
+  "coverage": {
+    "checked_sections": 1,
+    "full_book_mapping": false
+  },
+  "next_steps": [
+    "Register distinct editions and translators within each language",
+    "Map all chapter headings to stable canonical section IDs",
+    "Ingest permitted full texts with edition and revision provenance",
+    "Align passage ranges with many-to-many links and reviewed/proposed status",
+    "Add comparison view and report wording differences without calling them errors"
+  ]
+}
