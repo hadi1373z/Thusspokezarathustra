@@ -67,5 +67,61 @@
     "Ingest permitted full texts with edition and revision provenance",
     "Align passage ranges with many-to-many links and reviewed/proposed status",
     "Add comparison view and report wording differences without calling them errors"
-  ]
+  ],
+  "introductions": [
+    {
+      "id": "site.reading-introduction",
+      "kind": "original_editorial_guide",
+      "is_book_translation": false,
+      "variants": [
+        {
+          "lang": "en",
+          "label": "English",
+          "href": "languages.html#en",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "de",
+          "label": "Deutsch",
+          "href": "languages.html#de",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "fr",
+          "label": "Français",
+          "href": "languages.html#fr",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "it",
+          "label": "Italiano",
+          "href": "languages.html#it",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "es",
+          "label": "Español",
+          "href": "languages.html#es",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "fa",
+          "label": "فارسی",
+          "href": "languages.html#fa",
+          "status": "short_introduction_available"
+        },
+        {
+          "lang": "cs",
+          "label": "Čeština",
+          "href": "languages.html#cs",
+          "status": "short_introduction_available"
+        }
+      ]
+    }
+  ],
+  "paratext_policy": {
+    "nietzsche_prologue": "Canonical book section; map separately when checked",
+    "translator_preface": "Edition-specific; require author and source; do not assume correspondence",
+    "editorial_guide": "Separate authored layer, not a quote or book translation"
+  }
 }
