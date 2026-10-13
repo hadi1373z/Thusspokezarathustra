@@ -27,3 +27,12 @@ The multilingual entry page links to external editions rather than copying or ma
 
 ## Expanded introductory languages
 The short reading guide is now available in 13 languages. Arabic, Turkish, Portuguese, Russian, Chinese and Japanese were added on 2026-10-14. Their book links explicitly open the existing English reader; full book translations into these languages have not been added. Arabic and Persian use right-to-left layout. The introduction layer of the translation map includes all 13 languages; the chapter map still covers one discourse in five editions.
+
+## Edition-source update (2026-10-14)
+Arabic: free full-book PDF from Hindawi/Safahat, Felix Faris translation (1938), Hindawi edition (2014).
+Russian: Antonovsky translation, 1913 edition, Wikisource table of contents covering four parts.
+Turkish: Mustafa Tüzel, official Türkiye İş Bankası publisher purchase page.
+Portuguese: Companhia das Letras, ISBN 9788535930481, official purchase page; translator attribution pending.
+Chinese: Sun Zhouxing, Commercial Press, collected works volume 4 (2020), official catalogue/purchase source.
+Japanese: Shizuya Okazawa, Kobunsha, two volumes; both official publisher pages linked.
+These replace the English fallback links for the six languages. No full foreign-language text was copied into this repository. Free access, commercial editions and permission to redistribute are separate questions. Edition metadata and the exact source URLs are recorded in editions.json; source status does not assert a paragraph alignment.
