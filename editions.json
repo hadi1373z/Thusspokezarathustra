@@ -68,5 +68,77 @@
     "href": "part-1.html",
     "note": "Tento průvodce je česky. Úplný český překlad knihy zde zatím není; odkaz vede na anglický překlad Thomase Commona.",
     "source": "https://www.gutenberg.org/ebooks/1998"
+  },
+  {
+    "lang": "ar",
+    "name": "العربية",
+    "title": "هكذا تكلم زرادشت",
+    "intro": "دليل لقراءة العمل الفلسفي لنيتشه. ابدأ بخطاب واحد، وميّز بين تفسيرك الشخصي ونص الكتاب.",
+    "label": "اقرأ النسخة الإنجليزية",
+    "note": "هذا دليل قصير بالعربية، وليس ترجمة كاملة للكتاب. يفتح الرابط النسخة الإنجليزية بترجمة توماس كومون.",
+    "href": "part-1.html",
+    "source": "https://www.gutenberg.org/ebooks/1998",
+    "content_scope": "short_editorial_introduction",
+    "full_text_language": "en"
+  },
+  {
+    "lang": "tr",
+    "name": "Türkçe",
+    "title": "Böyle Buyurdu Zerdüşt",
+    "intro": "Nietzsche’nin felsefi eserini okumak için bir rehber. Bir konuşmayla başlayın ve kendi yorumunuzu kitabın metninden ayırın.",
+    "label": "İngilizce sürümü oku",
+    "note": "Bu kısa rehber Türkçedir; kitabın tam Türkçe çevirisi burada henüz yoktur. Bağlantı Thomas Common’ın İngilizce çevirisini açar.",
+    "href": "part-1.html",
+    "source": "https://www.gutenberg.org/ebooks/1998",
+    "content_scope": "short_editorial_introduction",
+    "full_text_language": "en"
+  },
+  {
+    "lang": "pt",
+    "name": "Português",
+    "title": "Assim falou Zaratustra",
+    "intro": "Um guia de leitura da obra filosófica de Nietzsche. Comece por um discurso e diferencie sua interpretação do texto do livro.",
+    "label": "Ler a versão em inglês",
+    "note": "Este é um guia breve em português, não uma tradução integral do livro. O link abre a tradução inglesa de Thomas Common.",
+    "href": "part-1.html",
+    "source": "https://www.gutenberg.org/ebooks/1998",
+    "content_scope": "short_editorial_introduction",
+    "full_text_language": "en"
+  },
+  {
+    "lang": "ru",
+    "name": "Русский",
+    "title": "Так говорил Заратустра",
+    "intro": "Путеводитель по философскому произведению Ницше. Начните с одной речи и отличайте собственное толкование от текста книги.",
+    "label": "Читать английскую версию",
+    "note": "Это краткое введение на русском языке, а не полный перевод книги. Ссылка открывает английский перевод Томаса Коммона.",
+    "href": "part-1.html",
+    "source": "https://www.gutenberg.org/ebooks/1998",
+    "content_scope": "short_editorial_introduction",
+    "full_text_language": "en"
+  },
+  {
+    "lang": "zh",
+    "name": "中文",
+    "title": "查拉图斯特拉如是说",
+    "intro": "尼采哲学作品的阅读指南。从一篇演说开始，并区分自己的理解与书中的原文。",
+    "label": "阅读英文版",
+    "note": "这里只提供中文简短导读，尚未收录全书中文译本。链接打开托马斯·科蒙的英文译本。",
+    "href": "part-1.html",
+    "source": "https://www.gutenberg.org/ebooks/1998",
+    "content_scope": "short_editorial_introduction",
+    "full_text_language": "en"
+  },
+  {
+    "lang": "ja",
+    "name": "日本語",
+    "title": "ツァラトゥストラはこう語った",
+    "intro": "ニーチェの哲学作品を読むためのガイドです。一つの説話から始め、自分の解釈と本の本文を区別してください。",
+    "label": "英語版を読む",
+    "note": "ここで提供するのは日本語の短い読書案内で、全訳ではありません。リンクはトマス・コモンによる英訳を開きます。",
+    "href": "part-1.html",
+    "source": "https://www.gutenberg.org/ebooks/1998",
+    "content_scope": "short_editorial_introduction",
+    "full_text_language": "en"
   }
 ]
