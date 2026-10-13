@@ -1,0 +1,72 @@
+[
+  {
+    "lang": "en",
+    "name": "English",
+    "title": "Thus Spoke Zarathustra",
+    "intro": "A reading companion to Nietzsche’s philosophical novel. Begin with one discourse and keep your own interpretation separate from the text.",
+    "label": "Read the book",
+    "href": "part-1.html",
+    "note": "Existing local reader: Thomas Common translation. External edition and formats:",
+    "source": "https://www.gutenberg.org/ebooks/1998"
+  },
+  {
+    "lang": "de",
+    "name": "Deutsch",
+    "title": "Also sprach Zarathustra",
+    "intro": "Ein Lesebegleiter zu Nietzsches philosophischem Werk. Beginnen Sie mit einer Rede und unterscheiden Sie Ihre Interpretation vom Text.",
+    "label": "Das Buch lesen",
+    "href": "https://www.gutenberg.org/ebooks/7205",
+    "note": "Deutscher Originaltext bei Project Gutenberg. Lesen und herunterladen.",
+    "source": "https://www.gutenberg.org/ebooks/7205"
+  },
+  {
+    "lang": "fr",
+    "name": "Français",
+    "title": "Ainsi parlait Zarathoustra",
+    "intro": "Un guide de lecture de l’œuvre philosophique de Nietzsche. Commencez par un discours et distinguez votre interprétation du texte.",
+    "label": "Lire le livre",
+    "href": "https://dev.gutenberg.org/ebooks/5258",
+    "note": "Édition française chez Project Gutenberg. Lecture et téléchargement.",
+    "source": "https://dev.gutenberg.org/ebooks/5258"
+  },
+  {
+    "lang": "it",
+    "name": "Italiano",
+    "title": "Così parlò Zarathustra",
+    "intro": "Una guida alla lettura dell’opera filosofica di Nietzsche. Inizia con un discorso e distingui la tua interpretazione dal testo.",
+    "label": "Leggi il libro",
+    "href": "https://it.wikisource.org/wiki/Cos%C3%AC_parl%C3%B2_Zarathustra",
+    "note": "Traduzione di Renato Giani (1915), su Wikisource; indicata come riletta e controllata.",
+    "source": "https://it.wikisource.org/wiki/Cos%C3%AC_parl%C3%B2_Zarathustra"
+  },
+  {
+    "lang": "es",
+    "name": "Español",
+    "title": "Así habló Zaratustra",
+    "intro": "Una guía de lectura de la obra filosófica de Nietzsche. Empieza con un discurso y distingue tu interpretación del texto.",
+    "label": "Consultar la edición",
+    "href": "https://es.wikisource.org/wiki/As%C3%AD_habl%C3%B3_Zaratustra",
+    "note": "Edición en Wikisource. La página está localizada; la atribución del traductor y la integridad de la edición requieren revisión.",
+    "source": "https://es.wikisource.org/wiki/As%C3%AD_habl%C3%B3_Zaratustra"
+  },
+  {
+    "lang": "fa",
+    "name": "فارسی",
+    "title": "چنین گفت زرتشت",
+    "intro": "راهنمای خواندن اثر فلسفی نیچه. با یک گفتار شروع کن و برداشت خودت را از متن کتاب جدا نگه دار.",
+    "label": "خواندن نسخهٔ انگلیسی",
+    "href": "part-1.html",
+    "note": "این راهنما فارسی است؛ ترجمهٔ کامل فارسی کتاب در این پروژه اضافه نشده است. نسخهٔ انگلیسی با ترجمهٔ توماس کامن در دسترس است.",
+    "source": "https://www.gutenberg.org/ebooks/1998"
+  },
+  {
+    "lang": "cs",
+    "name": "Čeština",
+    "title": "Tak pravil Zarathustra",
+    "intro": "Průvodce četbou Nietzscheho filozofického díla. Začněte jednou promluvou a odlišujte vlastní výklad od textu.",
+    "label": "Číst anglickou verzi",
+    "href": "part-1.html",
+    "note": "Tento průvodce je česky. Úplný český překlad knihy zde zatím není; odkaz vede na anglický překlad Thomase Commona.",
+    "source": "https://www.gutenberg.org/ebooks/1998"
+  }
+]
